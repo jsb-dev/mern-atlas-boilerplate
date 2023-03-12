@@ -1,12 +1,15 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
+import connection from './database/database.js';
 import connectRouter from './api/routers/connect.js';
 
 dotenv.config();
 
 // Express
 const app = express();
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(express.json());
 
 // CORS
