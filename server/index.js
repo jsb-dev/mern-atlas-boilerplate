@@ -12,6 +12,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.json());
 
+// Database
+connection;
+
 // CORS
 const corsOptions = {
   origin: process.env.CLIENT_URL,
