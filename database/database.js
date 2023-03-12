@@ -15,7 +15,7 @@ mongoose.connect(MONGODB_URI, {
 const connection = mongoose.connection;
 connection.on('error', console.error.bind(console, 'connection error:'));
 connection.once('open', () => {
-  console.log('Connected to MongoDB database');
+  console.log('Connected to MongoDB database!');
 });
 
 export default connection;

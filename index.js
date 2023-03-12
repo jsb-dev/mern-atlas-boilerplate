@@ -25,9 +25,7 @@ app.use(cors(corsOptions));
 // Routers
 app.use('/connect', connectRouter);
 
-const BACKEND_PORT = process.env.BACKEND_PORT;
-app.listen(BACKEND_PORT, () =>
-  console.log(`Listening on port ${BACKEND_PORT}`)
-);
+const PORT = process.env.PORT;
+app.listen(PORT, () => console.log(`Listening on port ${PORT}!`));
 
 export default app;

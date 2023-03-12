@@ -5,7 +5,6 @@ window.env = {
   "SHLVL": "1",
   "WT_PROFILE_ID": "{2c4de342-38b7-51cf-b940-2309a097f518}",
   "npm_config_noproxy": "",
-  "MOTD_SHOWN": "update-motd",
   "HOME": "/home/dev",
   "OLDPWD": "/home/dev/WebDev/mern-atlas-boilerplate",
   "npm_package_json": "/home/dev/WebDev/mern-atlas-boilerplate/client/package.json",
@@ -17,7 +16,7 @@ window.env = {
   "WAYLAND_DISPLAY": "wayland-0",
   "LOGNAME": "dev",
   "NAME": "DESKTOP-2DVS4AJ",
-  "WSL_INTEROP": "/run/WSL/8_interop",
+  "WSL_INTEROP": "/run/WSL/22881_interop",
   "PULSE_SERVER": "unix:/mnt/wslg/PulseServer",
   "_": "/usr/local/bin/npm",
   "npm_config_prefix": "/usr/local",
@@ -27,7 +26,7 @@ window.env = {
   "PATH": "/home/dev/WebDev/mern-atlas-boilerplate/client/node_modules/.bin:/home/dev/WebDev/mern-atlas-boilerplate/node_modules/.bin:/home/dev/WebDev/node_modules/.bin:/home/dev/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Git/cmd:/mnt/c/msys64/home/jbbro/.splashkit:/mnt/c/msys64/home/jbbro/.splashkit/lib/win64:/mnt/c/msys64/home/jbbro/.splashkit/lib:/mnt/c/Windows/System32:/mnt/c/Users/jbbro/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jbbro/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jbbro/.dotnet/tools:/snap/bin",
   "NODE": "/usr/local/bin/node",
   "npm_package_name": "client",
-  "WT_SESSION": "d75b393d-cc07-476b-add0-66b59e6841e0",
+  "WT_SESSION": "c565e1d2-6c76-41d8-a2d8-6b8dcba5ce17",
   "XDG_RUNTIME_DIR": "/mnt/wslg/runtime-dir",
   "DISPLAY": ":0",
   "LANG": "C.UTF-8",
@@ -47,5 +46,5 @@ window.env = {
   "WSLENV": "WT_SESSION::WT_PROFILE_ID",
   "INIT_CWD": "/home/dev/WebDev/mern-atlas-boilerplate/client",
   "EDITOR": "vi",
-  "REACT_APP_API_URL": "http://localhost:5000"
+  "REACT_APP_API_URL": "http://localhost:5000/"
 };

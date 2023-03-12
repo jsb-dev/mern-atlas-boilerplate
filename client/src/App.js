@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   const { REACT_APP_API_URL } = env;
   const connect = async () => {
-    const response = await fetch(`${REACT_APP_API_URL}/connect`, {
+    const response = await fetch(`${REACT_APP_API_URL}connect`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
