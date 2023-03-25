@@ -1,0 +1,5 @@
+
+# Database configurations - Password insert for URI cannot have any special characters
+MONGODB_URI=<MONGODB_URI>
+
+# Change this file name to .env when ready

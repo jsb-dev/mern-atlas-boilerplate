@@ -4,7 +4,4 @@ PORT=5000
 # CORS configurations - Set CLIENT_URL of the frontend (Vercel URL for production, localhost 3000 for local development)
 CLIENT_URL=http://localhost:3000 
 
-# Database configurations - Password insert for URI cannot have any special characters
-MONGODB_URI=<MONGODB_URI>
-
 # Change this file name to .env when ready
