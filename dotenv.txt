@@ -1,7 +1,0 @@
-# Server configurations - Do not set PORT on Heroku as it will be set automatically
-PORT=5000
-
-# CORS configurations - Set CLIENT_URL of the frontend (Vercel URL for production, localhost 3000 for local development)
-CLIENT_URL=http://localhost:3000 
-
-# Change this file name to .env when ready
