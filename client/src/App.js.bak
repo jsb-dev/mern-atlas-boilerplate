@@ -1,6 +1,6 @@
 import React from 'react';
+import logo from './logo.svg';
 import env from 'react-dotenv';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -20,19 +20,11 @@ function App() {
   connect();
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          exact
-          path="/"
-          element={
-            <div className="App">
-              <header className="App-header"></header>
-            </div>
-          }
-        />
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+    </div>
   );
 }
 
